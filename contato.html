@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Enquente da Comunidade</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="social.css">
+	</head>
+	<body>
+		<header>
+			<div class="exemplo">
+				<h1><img src="logo.png" alt="Logo da Sociedade"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Informações</a></li>
+						<li><a href="produtos.html">Principal</a></li>
+						<li><a href="contato.html">Enquente</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<fieldset>
+			<center><h2>Responda a Enquente por favor</h2></center><br/>
+			<form action="processaForm.php" method="post">
+				<label for="pergunta1">Você ajuda as pessoas que convivem com você ou a sociedade de algum modo?</label><br/>
+				<input type="radio" value="Sim, o minimo né" />Sim, o minimo né<br/>
+				<input type="radio" value="Não, cada um com seus problemas" />Não, cada um com seus problemas<br/>
+				<input type="radio" value="As vezes" />As vezes<br/>
+				<br/>
+				<label for="pergunta2">Quem você acha que mais deveria ajudar a nossa sociedade?</label><br/>
+				<input type="radio" value="Governo" />Governo<br/>
+				<input type="radio" value="Nós mesmos" />Nós mesmos<br/>
+				<input type="radio"  value="Deste jeito está bom" />Deste jeito está bom<br/>
+				<br/>
+				<label for="pergunta3">Você já foi ajudado em algum momento pela sociedade?</label><br/>
+				<input type="radio" value="Sim, Bastante" />Sim, Bastante<br/>
+				<input type="radio" value="Só uma vez" />Só uma vez<br/>
+				<input type="radio" value="Não" />Não<br/>
+				<br/>
+				<label for="pergunta4">Você acredita que nossa sociedade e o Governo pode melhorar algum dia?</label><br/>
+				<input type="radio" value="Sim" />Sim<br/>
+				<input type="radio" value="Talvez" />Talvez<br/>
+				<input type="radio" value="Não" />Não<br/>
+				<br/>
+				<label for="pergunta5">Gostaria de receber informações sobre as pesquisas feitas?</label><br/>
+				<input type="radio" value="Sim" />Sim<br/>
+				<input type="radio" value="Não" />Não<br/>
+	
+				<h4>Agora, so coloque o seu nome, email e telefone para se quiser mais informações.</h4>
+	
+				<label>Participante</label><br/>
+				<input type="text" name="nome"><br/>
+				<label>E-mail</label><br/>
+				<input class="alinhar" type="text" name="email"/><br/>
+				<label>Telefone</label><br/>
+				<input type="text" name="nome"><br/>
+				
+				<input type="submit" value="Enviar" />
+				<input type="reset" value="Cancelar" />
+			</form>
+			</fieldset>
+			<img src="mão.png" alt="Logo da Sociedade">
+			<p class="copyright">&copy; Copyright Alessandro V.J - 2022</p>
+		</footer>
+	</body>
+</html>
